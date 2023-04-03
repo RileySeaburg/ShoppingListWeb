@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.3",
           "Microsoft.AspNetCore.Identity.UI": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.3"
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "Microsoft.NET.Build.Containers": "0.3.2"
         },
         "runtime": {
           "ShoppingListWeb1.dll": {}
@@ -446,6 +447,7 @@
           }
         }
       },
+      "Microsoft.NET.Build.Containers/0.3.2": {},
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.SqlServer.Server/1.0.0": {
@@ -1011,6 +1013,13 @@
       "sha512": "sha512-AAEHZvZyb597a+QJSmtxH3n2P1nIJGpZ4Q89GTenknRx6T6zyfzf592yW/jA5e8EHN4tNMjjXHQaYWEq5+L05w==",
       "path": "microsoft.identitymodel.tokens/6.21.0",
       "hashPath": "microsoft.identitymodel.tokens.6.21.0.nupkg.sha512"
+    },
+    "Microsoft.NET.Build.Containers/0.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WkQ2M9PEUYDZM92Yfm6BBkHBTBQtET8Y30l5MOxU/IkiuAAnaGar/sMiNR5s4W+aMB3+S6lzndq9aMxUXw8hCA==",
+      "path": "microsoft.net.build.containers/0.3.2",
+      "hashPath": "microsoft.net.build.containers.0.3.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",

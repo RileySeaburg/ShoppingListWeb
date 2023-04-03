@@ -13,6 +13,43 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 105337726,
+        "Kind": "Components.Component",
+        "Name": "ShoppingListWeb1.Pages.Index",
+        "AssemblyName": "ShoppingListWeb1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShoppingListWeb1.Pages.Index",
+          "Common.TypeNamespace": "ShoppingListWeb1.Pages",
+          "Common.TypeNameIdentifier": "Index"
+        }
+      },
+      {
+        "HashCode": -593180498,
+        "Kind": "Components.Component",
+        "Name": "ShoppingListWeb1.Pages.Index",
+        "AssemblyName": "ShoppingListWeb1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShoppingListWeb1.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShoppingListWeb1.Pages.Index",
+          "Common.TypeNamespace": "ShoppingListWeb1.Pages",
+          "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1884680403,
         "Kind": "Components.Component",
         "Name": "ShoppingListWeb1.Pages.Counter",
@@ -83,117 +120,6 @@
           "Common.TypeName": "ShoppingListWeb1.Pages.FetchData",
           "Common.TypeNamespace": "ShoppingListWeb1.Pages",
           "Common.TypeNameIdentifier": "FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 105337726,
-        "Kind": "Components.Component",
-        "Name": "ShoppingListWeb1.Pages.Index",
-        "AssemblyName": "ShoppingListWeb1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShoppingListWeb1.Pages.Index",
-          "Common.TypeNamespace": "ShoppingListWeb1.Pages",
-          "Common.TypeNameIdentifier": "Index"
-        }
-      },
-      {
-        "HashCode": -593180498,
-        "Kind": "Components.Component",
-        "Name": "ShoppingListWeb1.Pages.Index",
-        "AssemblyName": "ShoppingListWeb1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShoppingListWeb1.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShoppingListWeb1.Pages.Index",
-          "Common.TypeNamespace": "ShoppingListWeb1.Pages",
-          "Common.TypeNameIdentifier": "Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1922670009,
-        "Kind": "Components.Component",
-        "Name": "ShoppingListWeb1.App",
-        "AssemblyName": "ShoppingListWeb1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShoppingListWeb1.App",
-          "Common.TypeNamespace": "ShoppingListWeb1",
-          "Common.TypeNameIdentifier": "App"
-        }
-      },
-      {
-        "HashCode": 1425787906,
-        "Kind": "Components.Component",
-        "Name": "ShoppingListWeb1.App",
-        "AssemblyName": "ShoppingListWeb1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShoppingListWeb1.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShoppingListWeb1.App",
-          "Common.TypeNamespace": "ShoppingListWeb1",
-          "Common.TypeNameIdentifier": "App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 56199048,
-        "Kind": "Components.Component",
-        "Name": "ShoppingListWeb1.Shared.LoginDisplay",
-        "AssemblyName": "ShoppingListWeb1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LoginDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShoppingListWeb1.Shared.LoginDisplay",
-          "Common.TypeNamespace": "ShoppingListWeb1.Shared",
-          "Common.TypeNameIdentifier": "LoginDisplay"
-        }
-      },
-      {
-        "HashCode": -416349685,
-        "Kind": "Components.Component",
-        "Name": "ShoppingListWeb1.Shared.LoginDisplay",
-        "AssemblyName": "ShoppingListWeb1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShoppingListWeb1.Shared.LoginDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShoppingListWeb1.Shared.LoginDisplay",
-          "Common.TypeNamespace": "ShoppingListWeb1.Shared",
-          "Common.TypeNameIdentifier": "LoginDisplay",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -396,6 +322,80 @@
           "Common.TypeName": "ShoppingListWeb1.Shared.NavMenu",
           "Common.TypeNamespace": "ShoppingListWeb1.Shared",
           "Common.TypeNameIdentifier": "NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 56199048,
+        "Kind": "Components.Component",
+        "Name": "ShoppingListWeb1.Shared.LoginDisplay",
+        "AssemblyName": "ShoppingListWeb1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShoppingListWeb1.Shared.LoginDisplay",
+          "Common.TypeNamespace": "ShoppingListWeb1.Shared",
+          "Common.TypeNameIdentifier": "LoginDisplay"
+        }
+      },
+      {
+        "HashCode": -416349685,
+        "Kind": "Components.Component",
+        "Name": "ShoppingListWeb1.Shared.LoginDisplay",
+        "AssemblyName": "ShoppingListWeb1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShoppingListWeb1.Shared.LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShoppingListWeb1.Shared.LoginDisplay",
+          "Common.TypeNamespace": "ShoppingListWeb1.Shared",
+          "Common.TypeNameIdentifier": "LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1922670009,
+        "Kind": "Components.Component",
+        "Name": "ShoppingListWeb1.App",
+        "AssemblyName": "ShoppingListWeb1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShoppingListWeb1.App",
+          "Common.TypeNamespace": "ShoppingListWeb1",
+          "Common.TypeNameIdentifier": "App"
+        }
+      },
+      {
+        "HashCode": 1425787906,
+        "Kind": "Components.Component",
+        "Name": "ShoppingListWeb1.App",
+        "AssemblyName": "ShoppingListWeb1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShoppingListWeb1.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShoppingListWeb1.App",
+          "Common.TypeNamespace": "ShoppingListWeb1",
+          "Common.TypeNameIdentifier": "App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

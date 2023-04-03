@@ -1,8 +1,9 @@
-﻿@using Shopping_List.Models;
+﻿@using Microsoft.EntityFrameworkCore
+
+@using Shopping_List.Models;
 @inject Shopping_List.Data.ShoppingContext context
 
 @page "/"
-
 <PageTitle>Index</PageTitle>
 
 <h1>Hello, world!</h1>
@@ -36,35 +37,44 @@ Welcome to your new app.
 @code {
     List<ShoppingItem> items = new List<ShoppingItem>();
 
-    // Initialize the item object
     private ShoppingItem item { get; set; } = new ShoppingItem();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadShoppingListAsync();
+    }
+
+    private async Task LoadShoppingListAsync()
+    {
+        items = await context.Shopping_List.ToListAsync();
+    }
 
     public async Task AddItem()
     {
         context.Shopping_List.Add(item);
         await context.SaveChangesAsync();
 
-        items.Add(item);
+        // Refresh the shopping list
+        await LoadShoppingListAsync();
 
         // Reset the item object for the next input
         item = new ShoppingItem();
     }
 
-
-    // Define a delete method that takes the ID of the item to delete as a parameter
     private async Task DeleteItem(int itemId)
     {
         // Find the item to delete based on its ID
         var itemToDelete = items.FirstOrDefault(item => item.ID == itemId);
 
-        // Remove the item from the list
+        // Remove the item from the list and the database
         if (itemToDelete != null)
         {
             items.Remove(itemToDelete);
-
-            // Remove the item from the database
             context.Shopping_List.Remove(itemToDelete);
             await context.SaveChangesAsync();
         }
+
+        // Refresh the shopping list
+        await LoadShoppingListAsync();
     }
 }
